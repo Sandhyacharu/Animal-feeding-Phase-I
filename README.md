@@ -35,7 +35,7 @@ Edit their speed values and test to see how it looks. Drag all three animals int
 
 ## Program:
 ### PLAYER CONTROLLER:
-```
+```python3
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
 }
 ```
 ### MOVE FORWARD:
-```
+```python3
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
