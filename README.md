@@ -35,6 +35,7 @@ Edit their speed values and test to see how it looks. Drag all three animals int
 
 ## Program:
 ### PLAYER CONTROLLER:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -72,7 +73,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
+```
 ### MOVE FORWARD:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -92,6 +95,7 @@ public class MoveForward : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
+```
 ## Output:
 ![image](https://user-images.githubusercontent.com/75235167/173584081-7c839cbf-28e6-49a7-8512-5c87acb5b1e6.png)
 
